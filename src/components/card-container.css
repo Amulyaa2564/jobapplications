@@ -1,4 +1,8 @@
-.card-container{
-    display: flex;
-    flex-wrap: wrap;
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 320px); /* 👈 fixed width cards */
+  gap: 32px;
+  padding: 40px;
+  justify-content: center; /* 👈 centers whole grid */
+  background: #f5f5f5;
 }

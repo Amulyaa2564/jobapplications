@@ -1,22 +1,23 @@
 .card{
-    width: 230px;
-    border-radius: 8px;
+    width: 238px;
+    border-radius: 25px;
     padding: 10px;
     background-color: white;
     color: black;
     margin: 30px;
-    
+    height: 300px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    height: 45px;
 }
 
 
 .header img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
 }
 .header button{
@@ -30,26 +31,33 @@
 .header span{
     margin: 5px;
     
+    
 }
 .content{
-    height: 150px;
+    height: 140px;
     
 }
 
 .content span{
     font-size: 10px;
     margin: 2px;
+    color: gray;
+}
+.content h3{
+    font-size: 15px;
 }
 .content h2{
-    font-size: 20px;
+    margin-top: -10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    
 }
 
 .tags{
     display: flex;
 }
 .tags p{
-    border: 1px solid gray;
-    margin: 5px;
+    margin: 3px;
     font-size: 12px;
     padding: 5px;
     background-color: #ededed;
